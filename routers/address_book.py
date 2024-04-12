@@ -10,7 +10,7 @@ from starlette import status
 
 from models.address_book import AddressBook
 from models.db import get_db_session
-from schemas.address_book import AddressDetails, UpdateAddress
+from schemas.address_book import AddAddress, AddressDetails, UpdateAddress
 
 logger = logging.getLogger(__name__)
 
@@ -68,9 +68,7 @@ async def get_address(
     response_class=ORJSONResponse,
     status_code=status.HTTP_200_OK,
 )
-async def add_address(
-    address: AddressDetails, session: Session = Depends(get_db_session)
-):
+async def add_address(address: AddAddress, session: Session = Depends(get_db_session)):
     geolocator = Nominatim(user_agent="address_book")
     try:
         logger.info("Adding Address")

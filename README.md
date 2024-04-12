@@ -19,7 +19,7 @@ Setup Process ---
 Example/Help ---
 Have logged the longiture and latitude for help to search close location within the provided distance and latitude and longitude
 
-Have used address as :- (San Francisco, CA, USA, New York City, NY, USA, Sydney, Australia)
+Have used address as :- ("San Francisco, CA, USA", "New York City, NY, USA", "Sydney, Australia")
 
 API to check swagger - http://localhost:8080/docs
 

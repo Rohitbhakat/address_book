@@ -11,3 +11,6 @@ class AddressDetails(BaseModel):
     latitude: float
     longitude: float
 
+
+class AddAddress(BaseModel):
+    address: str
