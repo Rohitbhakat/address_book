@@ -1,6 +1,6 @@
 Address Book API ---
 
-This is a FastAPI application for managing addresses and their geolocations. It provides endpoints for creating, updating, and retrieving addresses, as well as finding addresses within a specified distance of a given location.
+This is a FastAPI application for managing addresses and their geolocations. It provides endpoints for creating, updating, and finding addresses within a specified distance of a given location.
 
 Features ---
 
@@ -20,5 +20,7 @@ Example/Help ---
 Have logged the longiture and latitude for help to search close location within the provided distance and latitude and longitude
 
 Have used address as :- (San Francisco, CA, USA, New York City, NY, USA, Sydney, Australia)
+
+API to check swagger - http://localhost:8080/docs
 
 
