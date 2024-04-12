@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "address-book"
+version = "0.1.0"
+description = ""
+authors = ["Rohitbhakat <60672520+Rohitbhakat@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.1"
+geopy = "^2.4.1"
+sqlalchemy = "^2.0.29"
+isort = "^5.13.2"
+uvicorn = "^0.29.0"
+black = "^24.3.0"
+orjson = "^3.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
